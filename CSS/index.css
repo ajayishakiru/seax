@@ -3,18 +3,29 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    font-family: "Roboto", serif;
     box-sizing: border-box;
 }
 
-
-.welcome_text {
-    background-color: black;
-    color: white;
-    font-size: 17px;
-    font-weight: bold;
-    padding-left: 10px;
-    width: 50%;
-    margin-left: 100px;
-    margin-bottom: 20px;
+body{
+    background-color: gainsboro;
 }
+
+/* THIS IS THE HEADER TEXT STYLE*/
+.header-text{
+ width: 50%;
+ background-color: aqua;
+ text-align: left;
+ color: green;
+
+}
+
+.welcome_text{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+
 
