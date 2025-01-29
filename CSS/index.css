@@ -5,27 +5,79 @@
     text-decoration: none;
     font-family: "Roboto", serif;
     box-sizing: border-box;
+    color: black;
 }
 
 body{
     background-color: gainsboro;
 }
 
-/* THIS IS THE HEADER TEXT STYLE*/
 .header-text{
- width: 50%;
- background-color: aqua;
- text-align: left;
- color: green;
-
+  width: max-content;
+  /* background-color: green; */
+  color: black;
+  font-family: monospace;
+  font-weight: 900;
+  font-size: 30px;
+  text-decoration:underline;
+  text-transform: uppercase;
+  /* line-height: 190px; */
 }
 
-.welcome_text{
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-    color: white;
+/* VW STANDS FOR VIEWPORT WIDTH
+    And you use this whenever you want your html div to occupy
+    the entire with of whatever screen
+    you are using to view the website
+*/
+.container {
+ width:100vw;
+ height: 100vh;
+ /* background-color: black; */
 }
 
+.navbar {
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 70px;
+    padding-right: 70px ;
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.456);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.logo-image{
+    width: 40px;
+}
+
+.icon-image {
+    width: 20px;
+}
+
+.logo-span{
+    color: #faa320;
+}
+ 
+
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-link-group {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.icon-btn-group {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
