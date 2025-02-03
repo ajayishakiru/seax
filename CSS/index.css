@@ -81,3 +81,10 @@ body{
     gap: 30px;
 }
 
+.nav-btn {
+    background-color: aliceblue;
+    color: #faa320;
+    padding: 5px;
+    width: auto;
+}
+
